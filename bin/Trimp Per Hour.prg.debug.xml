@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="21" pc="268435458" symbol="initialize"/>
-<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="22" pc="268435476" symbol="initialize"/>
-<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="23" pc="268435489" symbol="initialize"/>
-<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="25" pc="268435502" symbol="initialize"/>
-<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="26" pc="268435564" symbol="initialize"/>
-<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="28" pc="268435611" symbol="initialize"/>
-<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="29" pc="268435647" symbol="initialize"/>
-<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="35" pc="268435694" symbol="compute"/>
-<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="36" pc="268435720" symbol="compute"/>
-<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="37" pc="268435746" symbol="compute"/>
-<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="38" pc="268435765" symbol="compute"/>
-<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="42" pc="268435791" symbol="compute"/>
-<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="43" pc="268435837" symbol="compute"/>
-<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="44" pc="268435918" symbol="compute"/>
-<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="48" pc="268435937" symbol="compute"/>
-<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="49" pc="268435947" symbol="compute"/>
-<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="50" pc="268435957" symbol="compute"/>
-<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="52" pc="268435967" symbol="compute"/>
-<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="53" pc="268435984" symbol="compute"/>
-<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="55" pc="268436000" symbol="compute"/>
-<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="57" pc="268436081" symbol="compute"/>
-<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="63" pc="268436090" symbol="getHeartRateReserve"/>
-<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="64" pc="268436110" symbol="getHeartRateReserve"/>
-<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="65" pc="268436129" symbol="getHeartRateReserve"/>
-<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="67" pc="268436168" symbol="getHeartRateReserve"/>
-<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="71" pc="268436177" symbol="getExp"/>
-<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="75" pc="268436203" symbol="calcNullable"/>
-<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="76" pc="268436210" symbol="calcNullable"/>
-<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="78" pc="268436216" symbol="calcNullable"/>
-<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourApp.mc" lineNum="6" pc="268436222" symbol="initialize"/>
-<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourApp.mc" lineNum="19" pc="268436249" symbol="getInitialView"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\git\\garmin-trimp-perhour\\source\\TrimpPerHourView.mc" lineNum="21" pc="268435458" symbol="initialize"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\git\\garmin-trimp-perhour\\source\\TrimpPerHourView.mc" lineNum="22" pc="268435476" symbol="initialize"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\git\\garmin-trimp-perhour\\source\\TrimpPerHourView.mc" lineNum="23" pc="268435489" symbol="initialize"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\git\\garmin-trimp-perhour\\source\\TrimpPerHourView.mc" lineNum="25" pc="268435502" symbol="initialize"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\git\\garmin-trimp-perhour\\source\\TrimpPerHourView.mc" lineNum="26" pc="268435564" symbol="initialize"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\git\\garmin-trimp-perhour\\source\\TrimpPerHourView.mc" lineNum="28" pc="268435611" symbol="initialize"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\git\\garmin-trimp-perhour\\source\\TrimpPerHourView.mc" lineNum="29" pc="268435647" symbol="initialize"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\git\\garmin-trimp-perhour\\source\\TrimpPerHourView.mc" lineNum="35" pc="268435694" symbol="compute"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\git\\garmin-trimp-perhour\\source\\TrimpPerHourView.mc" lineNum="36" pc="268435720" symbol="compute"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\git\\garmin-trimp-perhour\\source\\TrimpPerHourView.mc" lineNum="37" pc="268435746" symbol="compute"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\git\\garmin-trimp-perhour\\source\\TrimpPerHourView.mc" lineNum="38" pc="268435765" symbol="compute"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\git\\garmin-trimp-perhour\\source\\TrimpPerHourView.mc" lineNum="42" pc="268435791" symbol="compute"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\git\\garmin-trimp-perhour\\source\\TrimpPerHourView.mc" lineNum="43" pc="268435837" symbol="compute"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\git\\garmin-trimp-perhour\\source\\TrimpPerHourView.mc" lineNum="44" pc="268435918" symbol="compute"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\git\\garmin-trimp-perhour\\source\\TrimpPerHourView.mc" lineNum="48" pc="268435937" symbol="compute"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\git\\garmin-trimp-perhour\\source\\TrimpPerHourView.mc" lineNum="49" pc="268435947" symbol="compute"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\git\\garmin-trimp-perhour\\source\\TrimpPerHourView.mc" lineNum="50" pc="268435957" symbol="compute"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\git\\garmin-trimp-perhour\\source\\TrimpPerHourView.mc" lineNum="52" pc="268435967" symbol="compute"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\git\\garmin-trimp-perhour\\source\\TrimpPerHourView.mc" lineNum="53" pc="268435984" symbol="compute"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\git\\garmin-trimp-perhour\\source\\TrimpPerHourView.mc" lineNum="55" pc="268436000" symbol="compute"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\git\\garmin-trimp-perhour\\source\\TrimpPerHourView.mc" lineNum="57" pc="268436081" symbol="compute"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\git\\garmin-trimp-perhour\\source\\TrimpPerHourView.mc" lineNum="63" pc="268436090" symbol="getHeartRateReserve"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\git\\garmin-trimp-perhour\\source\\TrimpPerHourView.mc" lineNum="64" pc="268436110" symbol="getHeartRateReserve"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\git\\garmin-trimp-perhour\\source\\TrimpPerHourView.mc" lineNum="65" pc="268436129" symbol="getHeartRateReserve"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\git\\garmin-trimp-perhour\\source\\TrimpPerHourView.mc" lineNum="67" pc="268436168" symbol="getHeartRateReserve"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\git\\garmin-trimp-perhour\\source\\TrimpPerHourView.mc" lineNum="71" pc="268436177" symbol="getExp"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\git\\garmin-trimp-perhour\\source\\TrimpPerHourView.mc" lineNum="75" pc="268436203" symbol="calcNullable"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\git\\garmin-trimp-perhour\\source\\TrimpPerHourView.mc" lineNum="76" pc="268436210" symbol="calcNullable"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\git\\garmin-trimp-perhour\\source\\TrimpPerHourView.mc" lineNum="78" pc="268436216" symbol="calcNullable"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\git\\garmin-trimp-perhour\\source\\TrimpPerHourApp.mc" lineNum="6" pc="268436222" symbol="initialize"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\git\\garmin-trimp-perhour\\source\\TrimpPerHourApp.mc" lineNum="19" pc="268436249" symbol="getInitialView"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="10" module="true" symbol="Menus"/>
