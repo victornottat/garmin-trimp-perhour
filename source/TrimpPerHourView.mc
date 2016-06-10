@@ -52,7 +52,7 @@ class TrimpPerHourView extends Ui.SimpleDataField {
     	if(movingTime != 0) {
     		var movingTimeHr = movingTime / 60.0;
     	
-    		return  trimp.format("%3.1f") + "/" + movingTimeHr.format("%3.2f") + "=" + (trimp/movingTimeHr).format("%3.1f");
+    		return  (trimp/movingTimeHr).format("%3.1f");
     	} else {
     		return 0;
     	}
