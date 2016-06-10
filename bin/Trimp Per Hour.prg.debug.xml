@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="21" pc="268435458" symbol="initialize"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="22" pc="268435476" symbol="initialize"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="23" pc="268435489" symbol="initialize"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="25" pc="268435502" symbol="initialize"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="26" pc="268435564" symbol="initialize"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="28" pc="268435611" symbol="initialize"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="29" pc="268435647" symbol="initialize"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="35" pc="268435694" symbol="compute"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="36" pc="268435720" symbol="compute"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="37" pc="268435746" symbol="compute"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="38" pc="268435765" symbol="compute"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="42" pc="268435791" symbol="compute"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="43" pc="268435837" symbol="compute"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="44" pc="268435918" symbol="compute"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="48" pc="268435937" symbol="compute"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="49" pc="268435947" symbol="compute"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="50" pc="268435957" symbol="compute"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="52" pc="268435967" symbol="compute"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="53" pc="268435984" symbol="compute"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="55" pc="268436000" symbol="compute"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="57" pc="268436081" symbol="compute"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="63" pc="268436090" symbol="getHeartRateReserve"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="64" pc="268436110" symbol="getHeartRateReserve"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="65" pc="268436129" symbol="getHeartRateReserve"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="67" pc="268436168" symbol="getHeartRateReserve"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="71" pc="268436177" symbol="getExp"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="75" pc="268436203" symbol="calcNullable"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="76" pc="268436210" symbol="calcNullable"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourView.mc" lineNum="78" pc="268436216" symbol="calcNullable"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourApp.mc" lineNum="6" pc="268436222" symbol="initialize"/>
+<entry filename="C:\\Users\\VNO3521\\Developpement\\garmin\\workspace\\Trimp Per Hour\\source\\TrimpPerHourApp.mc" lineNum="19" pc="268436249" symbol="getInitialView"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="10" module="true" symbol="Menus"/>
+<entry field="true" id="13" symbol="AppName"/>
+<entry field="true" id="12" symbol="LauncherIcon"/>
+<entry id="8388771" module="true" symbol="Drawables"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="9" object="true" symbol="TrimpPerHourApp"/>
+<entry id="25" method="true" symbol="calcNullable"/>
+<entry field="true" id="17" symbol="userMaxHR"/>
+<entry id="11" module="true" symbol="Layouts"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="24" method="true" symbol="getExp"/>
+<entry field="true" id="20" symbol="latestDistance"/>
+<entry id="8" object="true" symbol="TrimpPerHourView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry field="true" id="21" symbol="movingTime"/>
+<entry id="8388772" module="true" symbol="Fonts"/>
+<entry id="8389137" method="true" symbol="compute"/>
+<entry id="8388769" module="true" symbol="Rez"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry field="true" id="14" symbol="movingThreshold"/>
+<entry field="true" id="19" symbol="latestHR"/>
+<entry field="true" id="16" symbol="genderMultiplier"/>
+<entry id="23" method="true" symbol="getHeartRateReserve"/>
+<entry field="true" id="15" symbol="userRestingHR"/>
+<entry id="8388770" module="true" symbol="Strings"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="18" symbol="latestTime"/>
+<entry field="true" id="22" symbol="trimp"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435691" name="zones" stackId="1" startPc="268435458"/>
+<entry endPc="268436078" name="movingTimeHr" stackId="6" startPc="268435984"/>
+<entry endPc="268436087" name="timeVariation" stackId="4" startPc="268435694"/>
+<entry endPc="268436087" name="heartRate" stackId="3" startPc="268435694"/>
+<entry endPc="268436087" name="time" stackId="2" startPc="268435694"/>
+<entry endPc="268436087" name="distance" stackId="5" startPc="268435694"/>
+<entry endPc="268436165" name="latestHRAverage" stackId="2" startPc="268436110"/>
+</localVars>
+<annotations/>
+<functions>
+<functionEntry name="initialize" parent="TrimpPerHourView">
+<documentation><![CDATA[<div class="description"> Set the label of the data field here.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="compute" parent="TrimpPerHourView">
+<param id="info"/>
+<documentation><![CDATA[<div class="description"> The given info object contains all the current workout<br/> information. Calculate a value and return it in this method.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="getHeartRateReserve" parent="TrimpPerHourView">
+<param id="heartRate"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="getExp" parent="TrimpPerHourView">
+<param id="heartRate"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="calcNullable" parent="TrimpPerHourView">
+<param id="nullableValue"/>
+<param id="defaultValue"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="initialize" parent="TrimpPerHourApp">
+<documentation/>
+</functionEntry>
+<functionEntry name="onStart" parent="TrimpPerHourApp">
+<documentation><![CDATA[<div class="description"> onStart() is called on application start up<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onStop" parent="TrimpPerHourApp">
+<documentation><![CDATA[<div class="description"> onStop() is called when your application is exiting<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="getInitialView" parent="TrimpPerHourApp">
+<documentation><![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]></documentation>
+</functionEntry>
+</functions>
+</debugInfo>
