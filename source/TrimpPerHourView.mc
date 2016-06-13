@@ -8,6 +8,8 @@ class TrimpPerHourView extends Ui.SimpleDataField {
 	var userRestingHR = 0;
 	var genderMultiplier = 1.92;
 	var userMaxHR=0;
+	var staticSport = true;
+	
 	var latestTime = 0;
 	var latestHR = 0;
 	var latestDistance = 0;
@@ -27,6 +29,10 @@ class TrimpPerHourView extends Ui.SimpleDataField {
         
         var zones = UserProfile.getHeartRateZones(UserProfile.getCurrentSport());
         userMaxHR = calcNullable(zones[zones.size()-1],0);
+        
+        if(UserProfile.getCurrentSport() == UserProfile.SPORT_CYCLING || UserProfile.getCurrentSport() == UserProfile.SPORT_RUNNING){
+        	staticSport = false;
+        }
     }
 
     //! The given info object contains all the current workout
@@ -39,7 +45,7 @@ class TrimpPerHourView extends Ui.SimpleDataField {
     
     	//convert ms to minutes at display to reduce roundings influence
     	//use average speed since last measure in m/s
-    	if(timeVariation > 0 && (distance-latestDistance)/(timeVariation/1000.0) > movingThreshold){
+    	if(staticSport || timeVariation > 0 && (distance-latestDistance)/(timeVariation/1000.0) > movingThreshold){
     		trimp += timeVariation * getHeartRateReserve(heartRate) * 0.64 * Math.pow(Math.E, getExp(heartRate));
     		movingTime += timeVariation;
     	}
