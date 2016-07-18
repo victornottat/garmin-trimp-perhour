@@ -4,8 +4,7 @@ class TrimpPerHourView extends Ui.SimpleDataField {
 
     //conf
     const MOVING_THRESHOLD = 1.0;
-    const DEFAULT_MAX_HR = 190; // Equals to 220 - 30y = 190bpm
-    const DEFAULT_REST_HR = 60; // Equals to common rest hr at 60bpm
+
 
     var genderMultiplier = 1.92; // Default MALE HRR computation multiplier
 
@@ -22,22 +21,20 @@ class TrimpPerHourView extends Ui.SimpleDataField {
     var trimp = 0.0;
 
     //! Set the label of the data field here.
-    function initialize() {
+    function initialize(pUserMaxHR, pUserRestHR) {
+
+        userMaxHR = pUserMaxHR;
+        userRestHR = pUserRestHR;
 
         SimpleDataField.initialize();
         label = "TRIMP/Hr";
-        
+
         // Female athlete? If yes adapt gender mulpiplier
         if (UserProfile.getProfile().gender == UserProfile.GENDER_FEMALE) {
             genderMultiplier = 1.67;
         }
 
-        // Getting MAX hr from end value of last zone
-        var hrZones = UserProfile.getHeartRateZones(UserProfile.getCurrentSport());
-        userMaxHR = replaceNull(hrZones[hrZones.size() - 1], DEFAULT_MAX_HR);
 
-        // Updating REST hr from device settings
-        userRestHR = replaceNull(UserProfile.getProfile().restingHeartRate, DEFAULT_REST_HR);
 
         if (UserProfile.getCurrentSport() == UserProfile.HR_ZONE_SPORT_BIKING || UserProfile.getCurrentSport() == UserProfile.HR_ZONE_SPORT_RUNNING) {
             staticSport = false;
@@ -50,10 +47,10 @@ class TrimpPerHourView extends Ui.SimpleDataField {
     //! The given info object contains all the current workout
     //! information. Calculate a value and return it in this method.
     function compute(info) {
-        var elapsedTime = replaceNull(info.elapsedTime, 0);
-        var currentHeartRate = replaceNull(info.currentHeartRate, 0);
+        var elapsedTime = Utils.replaceNull(info.elapsedTime, 0);
+        var currentHeartRate = Utils.replaceNull(info.currentHeartRate, 0);
         var timeVariation = (elapsedTime - latestTime) / 60000.0; //Minutes
-        var distance = replaceNull(info.elapsedDistance, 0);
+        var distance = Utils.replaceNull(info.elapsedDistance, 0);
 
         // Convert ms to minutes at display to reduce roundings influence
         // Use average speed since last measure in m/s
@@ -87,13 +84,4 @@ class TrimpPerHourView extends Ui.SimpleDataField {
     function getExp(heartRate) {
         return genderMultiplier * getHeartRateReserve(heartRate);
     }
-
-    function replaceNull(nullableValue, defaultValue) {
-        if (nullableValue != null) {
-            return nullableValue;
-        } else {
-            return defaultValue;
-        }
-    }
-
 }
