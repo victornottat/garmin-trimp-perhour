@@ -30,8 +30,8 @@ class TrimpPerHourView extends Ui.SimpleDataField {
         var zones = UserProfile.getHeartRateZones(UserProfile.getCurrentSport());
         userMaxHR = calcNullable(zones[zones.size() - 1], 0);
 
-        if(UserProfile.getCurrentSport() == UserProfile.SPORT_CYCLING || UserProfile.getCurrentSport() == UserProfile.SPORT_RUNNING){
-        	staticSport = false;
+        if (UserProfile.getCurrentSport() == UserProfile.HR_ZONE_SPORT_BIKING || UserProfile.getCurrentSport() == UserProfile.HR_ZONE_SPORT_RUNNING) {
+            staticSport = false;
         }
     }
 
