@@ -19,10 +19,11 @@
             <iq:product id="edge_1000"/>
             <iq:product id="edge_520"/>
             <iq:product id="vivoactive_hr"/>
+            <iq:product id="edge820"/>
         </iq:products>
 
         <iq:permissions>
-        	<iq:uses-permission id="UserProfile"/>
+            <iq:uses-permission id="UserProfile"/>
         </iq:permissions>
 
         <iq:languages>
