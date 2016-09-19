@@ -52,6 +52,18 @@ class TrimpPerHourView extends Ui.SimpleDataField {
         var timeVariation = (elapsedTime - latestTime) / 60000.0; //Minutes
         var distance = Utils.replaceNull(info.elapsedDistance, 0);
 
+		//prevent wrong values when no HR is available
+		//Check for Trimp value in case of a short signal loss during the ride
+		if(true && currentHeartRate == 0 && trimp == 0){
+			return "No HR";
+		}
+		
+		//prevent negative TRIMP with HR lower than user's rest HR
+		if(currentHeartRate < userRestHR){
+			currentHeartRate = userRestHR;
+		}
+
+
         // Convert ms to minutes at display to reduce roundings influence
         // Use average speed since last measure in m/s
         if (staticSport || timeVariation > 0 && (distance - latestDistance) / (timeVariation / 1000.0) > MOVING_THRESHOLD) {
