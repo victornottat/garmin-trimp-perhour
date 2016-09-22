@@ -14,7 +14,7 @@ class TrimpPerHourApp extends App.AppBase {
     }
 
     //! onStart() is called on application start up
-    function onStart() {
+    function onStart(state) {
         System.println("onStart() called");
         
         // Getting MAX hr from end value of last zone
@@ -27,7 +27,7 @@ class TrimpPerHourApp extends App.AppBase {
     }
 
     //! onStop() is called when your application is exiting
-    function onStop() {
+    function onStop(state) {
         System.println("onStop() called");
     }
 

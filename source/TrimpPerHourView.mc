@@ -19,29 +19,30 @@ class TrimpPerHourView extends Ui.SimpleDataField {
     var movingTime = 0.0;
 
     var trimp = 0.0;
+    
+    var trimpPerHourSummaryField;
+    
+    //lifecycle
+	var running = false;
 
     //! Set the label of the data field here.
     function initialize(pUserMaxHR, pUserRestHR) {
-
+		SimpleDataField.initialize();
+        label = "TRIMP/Hr";
+        
         userMaxHR = pUserMaxHR;
         userRestHR = pUserRestHR;
-
-        SimpleDataField.initialize();
-        label = "TRIMP/Hr";
 
         // Female athlete? If yes adapt gender mulpiplier
         if (UserProfile.getProfile().gender == UserProfile.GENDER_FEMALE) {
             genderMultiplier = 1.67;
         }
 
-
-
-        if (UserProfile.getCurrentSport() == UserProfile.HR_ZONE_SPORT_BIKING || UserProfile.getCurrentSport() == UserProfile.HR_ZONE_SPORT_RUNNING) {
-            staticSport = false;
-        }
-
-        System.println("Using MAX HR :" + userMaxHR);
-        System.println("Using REST HR :" + userRestHR);
+        staticSport = UserProfile.getCurrentSport() == UserProfile.HR_ZONE_SPORT_GENERIC;
+        
+        trimpPerHourSummaryField = createField("Trimp/Hr", 2, FitContributor.DATA_TYPE_FLOAT, { :mesgType=>FitContributor.MESG_TYPE_SESSION});
+        
+        resetData();
     }
 
     //! The given info object contains all the current workout
@@ -66,7 +67,7 @@ class TrimpPerHourView extends Ui.SimpleDataField {
 
         // Convert ms to minutes at display to reduce roundings influence
         // Use average speed since last measure in m/s
-        if (staticSport || timeVariation > 0 && (distance - latestDistance) / (timeVariation / 1000.0) > MOVING_THRESHOLD) {
+        if (running && (staticSport || timeVariation > 0 && (distance - latestDistance) / (timeVariation / 1000.0) > MOVING_THRESHOLD)) {
             trimp += timeVariation * getHeartRateReserve(currentHeartRate) * 0.64 * Math.pow(Math.E, getExp(currentHeartRate));
             movingTime += timeVariation;
         }
@@ -78,11 +79,43 @@ class TrimpPerHourView extends Ui.SimpleDataField {
 
         if (movingTime > 0) {
             var movingTimeHr = movingTime / 60.0;
+            trimpPerHourSummaryField.setData(trimp/movingTimeHr);
             return (trimp / movingTimeHr).format("%3.1f");
         } else {
             return 0;
         }
 
+    }
+    
+    //manage activity lifecycle
+    function onTimerStart(){
+    	running = true;
+    }
+    
+    function onTimerPause(){
+    	running = false;
+    }
+    
+    function onTimerResume(){
+    	running = true;
+    }
+    
+    function onTimerStop(){
+    	running = false;
+    }
+    
+    function onTimerReset(){
+	    resetData();
+    }
+    
+    function resetData(){
+    	latestTime = 0;
+		latestHeartRate = 0;
+		latestDistance = 0;
+		movingTime = 0.0;
+		trimp = 0.0;
+		
+	    trimpPerHourSummaryField.setData(0);
     }
 
     function getHeartRateReserve(heartRate) {

@@ -1,3 +1,17 @@
-<strings>
-    <string id="AppName">Trimp Per Hour</string>
-</strings>
+<resources>
+	<strings>
+		<string id="AppName">Trimp Per Hour</string>
+		<string id="trimp_per_hour_label">TRIMP/Hr</string>
+		<string id="per_hour_label">/Hr</string>
+		<string id="void"></string>
+	</strings>
+	<fitContributions>
+		<fitField id="2" 
+			displayInChart="false" 
+			displayInActivitySummary="true"
+			sortOrder="2"
+			precision="0" 
+			unitLabel="@Strings.per_hour_label" 
+			dataLabel="@Strings.trimp_per_hour_label" />
+	</fitContributions>
+</resources>
