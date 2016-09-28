@@ -1,0 +1,5 @@
+<properties>
+	<property id="customHR" type="boolean">false</property>
+    <property id="restHR" type="number">0</property>
+    <property id="maxHR" type="number">0</property>
+</properties>

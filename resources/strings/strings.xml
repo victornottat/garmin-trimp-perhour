@@ -4,14 +4,10 @@
 		<string id="trimp_per_hour_label">TRIMP/Hr</string>
 		<string id="per_hour_label">/Hr</string>
 		<string id="void"></string>
+		
+		<string id="customHR">Use custom heart rate</string>
+		<string id="restHR">Rest heart rate</string>
+		<string id="maxHR">Max heart rate</string>
+		<string id="settings_wrong_format">Please enter a number</string>
 	</strings>
-	<fitContributions>
-		<fitField id="2" 
-			displayInChart="false" 
-			displayInActivitySummary="true"
-			sortOrder="2"
-			precision="0" 
-			unitLabel="@Strings.per_hour_label" 
-			dataLabel="@Strings.trimp_per_hour_label" />
-	</fitContributions>
 </resources>

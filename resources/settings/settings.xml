@@ -1,0 +1,15 @@
+<settings>
+
+	<setting propertyKey="@Properties.customHR" title="@Strings.customHR">
+        <settingConfig type="boolean"/>
+    </setting>
+
+    <setting propertyKey="@Properties.restHR" title="@Strings.restHR">
+        <settingConfig type="numeric" errorMessage="@Strings.settings_wrong_format" />
+    </setting>
+    
+    <setting propertyKey="@Properties.maxHR" title="@Strings.maxHR">
+        <settingConfig type="numeric" errorMessage="@Strings.settings_wrong_format" />
+    </setting>
+    
+</settings>

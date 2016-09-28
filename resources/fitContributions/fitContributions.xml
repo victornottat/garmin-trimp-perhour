@@ -1,0 +1,9 @@
+<fitContributions>
+	<fitField id="2" 
+		displayInChart="false" 
+		displayInActivitySummary="true"
+		sortOrder="2"
+		precision="0" 
+		unitLabel="@Strings.per_hour_label" 
+		dataLabel="@Strings.trimp_per_hour_label" />
+</fitContributions>
