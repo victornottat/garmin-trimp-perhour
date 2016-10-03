@@ -31,11 +31,16 @@ class TrimpPerHourView extends Ui.SimpleDataField {
         label = "TRIMP/Hr";
         
         //use custom HR values if possible
-        var customHREnabled = Application.getApp().getProperty("customHR");
-        var customRestHR = Application.getApp().getProperty("restHR");
-        var customMaxHR = Application.getApp().getProperty("maxHR");
+        var customHREnabled = Utils.replaceNull(Application.getApp().getProperty("customHR"), false);
+        var customRestHR = Utils.replaceNull(Application.getApp().getProperty("restHR"), 0);
+        var customMaxHR = Utils.replaceNull(Application.getApp().getProperty("maxHR"), 0);
         
-        if(customHREnabled && customRestHR && customMaxHR && customRestHR > 0 && customMaxHR > customRestHR){
+        System.println(customHREnabled);
+        System.println(customRestHR);
+        System.println(customMaxHR);
+        
+        if(customHREnabled && customRestHR > 0 && customMaxHR > customRestHR){
+        	System.println("using custom HR");
         	userRestHR = customRestHR;
         	userMaxHR = customMaxHR;
         	
@@ -44,6 +49,9 @@ class TrimpPerHourView extends Ui.SimpleDataField {
         	userMaxHR = Utils.replaceNull(zones[zones.size()-1],0);
         
         	userRestHR = Utils.replaceNull(UserProfile.getProfile().restingHeartRate,0);
+        	
+        	System.println("using profile HR");
+        	System.println(userRestHR + "/" + userMaxHR);
         }
 
         // Female athlete? If yes adapt gender mulpiplier
@@ -74,7 +82,7 @@ class TrimpPerHourView extends Ui.SimpleDataField {
 
 		//prevent wrong values when no HR is available
 		//Check for Trimp value in case of a short signal loss during the ride
-		if(true && currentHeartRate == 0 && trimp == 0){
+		if(running && currentHeartRate == 0 && trimp == 0){
 			return "No HR";
 		}
 		
